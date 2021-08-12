@@ -1,0 +1,14 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/bithor/c#/ccd/Content/bakgrund.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/bakgrund.xnb","TextureProcessor","Texture2DContent",11176,7680085,0.3825011
+"/home/bithor/c#/ccd/Content/doug_attack.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/doug_attack.xnb","TextureProcessor","Texture2DContent",1869,14469,0.001286
+"/home/bithor/c#/ccd/Content/doug_idle.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/doug_idle.xnb","TextureProcessor","Texture2DContent",668,8277,0.2177046
+"/home/bithor/c#/ccd/Content/doug_promenad.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/doug_promenad.xnb","TextureProcessor","Texture2DContent",987,24661,0.2028385
+"/home/bithor/c#/ccd/Content/doug.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/doug.xnb","TextureProcessor","Texture2DContent",1874,10165,0.0014555
+"/home/bithor/c#/ccd/Content/fiende_attack.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/fiende_attack.xnb","TextureProcessor","Texture2DContent",1845,14701,0.0013185
+"/home/bithor/c#/ccd/Content/fiende.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/fiende.xnb","TextureProcessor","Texture2DContent",1801,8149,0.0013689
+"/home/bithor/c#/ccd/Content/himmel.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/himmel.xnb","TextureProcessor","Texture2DContent",15934,8294485,0.2240328
+"/home/bithor/c#/ccd/Content/hus.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/hus.xnb","TextureProcessor","Texture2DContent",10044,4171621,0.1613417
+"/home/bithor/c#/ccd/Content/mark.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/mark.xnb","TextureProcessor","Texture2DContent",5590,1536085,0.0662792
+"/home/bithor/c#/ccd/Content/randy_attack.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/randy_attack.xnb","TextureProcessor","Texture2DContent",1869,14469,0.003308
+"/home/bithor/c#/ccd/Content/randy.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/randy.xnb","TextureProcessor","Texture2DContent",1874,10165,0.037269
+"/home/bithor/c#/ccd/Content/telefon.png","/home/bithor/c#/ccd/Content/bin/DesktopGL/Content/telefon.xnb","TextureProcessor","Texture2DContent",3004,391765,0.0161221
