@@ -34,7 +34,7 @@ namespace ccd
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            NuvarandeStatus.LoadContent();
             // TODO: use this.Content to load your game content here
         }
 

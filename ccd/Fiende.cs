@@ -5,14 +5,12 @@ using Microsoft.Xna.Framework.Input;
 namespace ccd {
 
     public class Fiende : Objekt {
-
-        public Rectangle HitBox;
-
         public Fiende(SpriteBatch spriteBatch, SpelResurser spelResurser) : base(spriteBatch, spelResurser) {
             SpriteBatch = spriteBatch;
             SpelResurser = spelResurser;
             Position = new Vector2(100, 100);
             HitBox = new Rectangle((int)Position.X, (int)Position.Y, SpelResurser.RandyAttackTextur.Width, SpelResurser.RandyAttackTextur.Height);
+            HP = 100;
 
         }
 

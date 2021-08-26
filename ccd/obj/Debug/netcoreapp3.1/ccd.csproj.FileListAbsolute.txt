@@ -41,7 +41,6 @@
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/ccd.dll
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/ccd.pdb
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/MonoGame.Framework.dll
-/home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/TiledCS.dll
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libSDL2-2.0.so.0
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libopenal.so.1
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/runtimes/osx/native/libSDL2-2.0.0.dylib
@@ -58,10 +57,6 @@
 /home/bithor/c#/ccd/ccd/obj/Debug/netcoreapp3.1/ccd.dll
 /home/bithor/c#/ccd/ccd/obj/Debug/netcoreapp3.1/ccd.pdb
 /home/bithor/c#/ccd/ccd/obj/Debug/netcoreapp3.1/ccd.genruntimeconfig.cache
-/home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/TiledCS.MonoGame.Content.Pipeline.dll
-/home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/TiledCS.MonoGame.dll
-/home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/TiledCS.MonoGame.pdb
-/home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/TiledCS.MonoGame.Content.Pipeline.pdb
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/bakgrund.xnb
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/doug.xnb
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/doug_attack.xnb
@@ -74,6 +69,7 @@
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/mark.xnb
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/randy.xnb
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/randy_attack.xnb
-/home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/SpelKarta.xnb
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/telefon.xnb
-/home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/Tile.xnb
+/home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/Yxa.xnb
+/home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/InventorySlot.xnb
+/home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/dougattack.xnb

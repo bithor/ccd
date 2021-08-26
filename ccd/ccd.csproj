@@ -26,10 +26,5 @@
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
-    <PackageReference Include="tiledcs" Version="2.1.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TiledCS.Extensions.MonoGame\Core\TiledCS.MonoGame.csproj" />
-    <ProjectReference Include="..\TiledCS.Extensions.MonoGame\Pipeline\TiledCS.MonoGame.Content.Pipeline.csproj" />
   </ItemGroup>
 </Project>

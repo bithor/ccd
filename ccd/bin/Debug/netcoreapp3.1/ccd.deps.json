@@ -9,10 +9,7 @@
       "ccd/1.0.0": {
         "dependencies": {
           "MonoGame.Content.Builder.Task": "3.8.0.1641",
-          "MonoGame.Framework.DesktopGL": "3.8.0.1641",
-          "TiledCS.MonoGame": "1.0.0",
-          "TiledCS.MonoGame.Content.Pipeline": "1.0.0",
-          "TiledCS": "2.1.1"
+          "MonoGame.Framework.DesktopGL": "3.8.0.1641"
         },
         "runtime": {
           "ccd.dll": {}
@@ -68,30 +65,6 @@
             "fileVersion": "0.0.0.0"
           }
         }
-      },
-      "TiledCS/2.1.1": {
-        "runtime": {
-          "lib/netstandard2.0/TiledCS.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.0"
-          }
-        }
-      },
-      "TiledCS.MonoGame/1.0.0": {
-        "dependencies": {
-          "TiledCS": "2.1.1"
-        },
-        "runtime": {
-          "TiledCS.MonoGame.dll": {}
-        }
-      },
-      "TiledCS.MonoGame.Content.Pipeline/1.0.0": {
-        "dependencies": {
-          "TiledCS": "2.1.1"
-        },
-        "runtime": {
-          "TiledCS.MonoGame.Content.Pipeline.dll": {}
-        }
       }
     }
   },
@@ -114,23 +87,6 @@
       "sha512": "sha512-rJQlrlHQbnOECYV6EcQ8GlGRQ2lzPTroXQcyyOZ0ki+BQRSJEN2zVBm9skqLiXya348aGAfTSSGTaSKjAy9NaA==",
       "path": "monogame.framework.desktopgl/3.8.0.1641",
       "hashPath": "monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
-    },
-    "TiledCS/2.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-hnKTZcuLBGTCcGoFvXuEI0pk0OsexITfsAbcg2x26sov1ISe2gmxQkunyYdg5F4BwYzMY1RPtAE6PxfIIoj/3g==",
-      "path": "tiledcs/2.1.1",
-      "hashPath": "tiledcs.2.1.1.nupkg.sha512"
-    },
-    "TiledCS.MonoGame/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TiledCS.MonoGame.Content.Pipeline/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

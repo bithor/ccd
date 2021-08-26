@@ -54,41 +54,6 @@
             "rid": "win-x86"
           }
         }
-      },
-      "TiledCS/2.1.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/TiledCS.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/TiledCS.dll": {}
-        }
-      },
-      "TiledCS.MonoGame/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "TiledCS": "2.1.1"
-        },
-        "compile": {
-          "bin/placeholder/TiledCS.MonoGame.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TiledCS.MonoGame.dll": {}
-        }
-      },
-      "TiledCS.MonoGame.Content.Pipeline/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "TiledCS": "2.1.1"
-        },
-        "compile": {
-          "bin/placeholder/TiledCS.MonoGame.Content.Pipeline.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TiledCS.MonoGame.Content.Pipeline.dll": {}
-        }
       }
     }
   },
@@ -200,38 +165,12 @@
         "runtimes/win-x86/native/SDL2.dll",
         "runtimes/win-x86/native/soft_oal.dll"
       ]
-    },
-    "TiledCS/2.1.1": {
-      "sha512": "hnKTZcuLBGTCcGoFvXuEI0pk0OsexITfsAbcg2x26sov1ISe2gmxQkunyYdg5F4BwYzMY1RPtAE6PxfIIoj/3g==",
-      "type": "package",
-      "path": "tiledcs/2.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/TiledCS.dll",
-        "lib/netstandard2.0/TiledCS.xml",
-        "tiledcs.2.1.1.nupkg.sha512",
-        "tiledcs.nuspec"
-      ]
-    },
-    "TiledCS.MonoGame/1.0.0": {
-      "type": "project",
-      "path": "../TiledCS.Extensions.MonoGame/Core/TiledCS.MonoGame.csproj",
-      "msbuildProject": "../TiledCS.Extensions.MonoGame/Core/TiledCS.MonoGame.csproj"
-    },
-    "TiledCS.MonoGame.Content.Pipeline/1.0.0": {
-      "type": "project",
-      "path": "../TiledCS.Extensions.MonoGame/Pipeline/TiledCS.MonoGame.Content.Pipeline.csproj",
-      "msbuildProject": "../TiledCS.Extensions.MonoGame/Pipeline/TiledCS.MonoGame.Content.Pipeline.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "MonoGame.Content.Builder.Task >= 3.8.0.1641",
-      "MonoGame.Framework.DesktopGL >= 3.8.0.1641",
-      "TiledCS.MonoGame >= 1.0.0",
-      "TiledCS.MonoGame.Content.Pipeline >= 1.0.0",
-      "tiledcs >= 2.1.1"
+      "MonoGame.Framework.DesktopGL >= 3.8.0.1641"
     ]
   },
   "packageFolders": {
@@ -258,14 +197,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "/home/bithor/c#/ccd/TiledCS.Extensions.MonoGame/Core/TiledCS.MonoGame.csproj": {
-              "projectPath": "/home/bithor/c#/ccd/TiledCS.Extensions.MonoGame/Core/TiledCS.MonoGame.csproj"
-            },
-            "/home/bithor/c#/ccd/TiledCS.Extensions.MonoGame/Pipeline/TiledCS.MonoGame.Content.Pipeline.csproj": {
-              "projectPath": "/home/bithor/c#/ccd/TiledCS.Extensions.MonoGame/Pipeline/TiledCS.MonoGame.Content.Pipeline.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -285,10 +217,6 @@
           "MonoGame.Framework.DesktopGL": {
             "target": "Package",
             "version": "[3.8.0.1641, )"
-          },
-          "tiledcs": {
-            "target": "Package",
-            "version": "[2.1.1, )"
           }
         },
         "imports": [

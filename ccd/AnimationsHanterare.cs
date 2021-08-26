@@ -10,9 +10,10 @@ namespace ccd {
         private Facing Facing;
 
         public AnimationsHanterare(SpelResurser spelResurser){
-            Animationer = new Animation[2];
+            Animationer = new Animation[3];
             Animationer[0] = new Animation(spelResurser.DougIdle, 2, 1f);
             Animationer[1] = new Animation(spelResurser.DougPromenad, 6, 10f);
+            Animationer[2] = new Animation(spelResurser.DougAttackTextur, 1, 10f);
         }
         public void Rita(SpriteBatch spriteBatch, Vector2 position) {
             Animationer[ValdAnimation].Rita(spriteBatch, position, Facing);

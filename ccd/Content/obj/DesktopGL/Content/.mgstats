@@ -4,13 +4,14 @@ Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Siz
 "/home/bithor/c#/ccd/ccd/Content/doug_idle.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/doug_idle.xnb","TextureProcessor","Texture2DContent",668,8277,0.0008203
 "/home/bithor/c#/ccd/ccd/Content/doug_promenad.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/doug_promenad.xnb","TextureProcessor","Texture2DContent",987,24661,0.0012246
 "/home/bithor/c#/ccd/ccd/Content/doug.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/doug.xnb","TextureProcessor","Texture2DContent",1874,10165,0.0012762
+"/home/bithor/c#/ccd/ccd/Content/dougattack.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/dougattack.xnb","TextureProcessor","Texture2DContent",455,4181,0.222683
 "/home/bithor/c#/ccd/ccd/Content/fiende_attack.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/fiende_attack.xnb","TextureProcessor","Texture2DContent",1845,14701,0.0012885
 "/home/bithor/c#/ccd/ccd/Content/fiende.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/fiende.xnb","TextureProcessor","Texture2DContent",1801,8149,0.0013063
 "/home/bithor/c#/ccd/ccd/Content/himmel.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/himmel.xnb","TextureProcessor","Texture2DContent",15934,8294485,0.2252541
 "/home/bithor/c#/ccd/ccd/Content/hus.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/hus.xnb","TextureProcessor","Texture2DContent",10044,4171621,0.0892237
+"/home/bithor/c#/ccd/ccd/Content/InventorySlot.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/InventorySlot.xnb","TextureProcessor","Texture2DContent",157,4181,0.1595378
 "/home/bithor/c#/ccd/ccd/Content/mark.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/mark.xnb","TextureProcessor","Texture2DContent",5590,1536085,0.0329956
 "/home/bithor/c#/ccd/ccd/Content/randy_attack.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/randy_attack.xnb","TextureProcessor","Texture2DContent",1869,14469,0.0008082
 "/home/bithor/c#/ccd/ccd/Content/randy.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/randy.xnb","TextureProcessor","Texture2DContent",1874,10165,0.0009796
-"/home/bithor/c#/ccd/ccd/Content/SpelKarta.tmx","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/SpelKarta.xnb","PassThroughProcessor","TiledMap",1998,4212,0.1190346
 "/home/bithor/c#/ccd/ccd/Content/telefon.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/telefon.xnb","TextureProcessor","Texture2DContent",3004,391765,0.0079491
-"/home/bithor/c#/ccd/ccd/Content/Tile.tsx","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/Tile.xnb","PassThroughProcessor","TiledTileset",215,165,0.006454
+"/home/bithor/c#/ccd/ccd/Content/Yxa.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/Yxa.xnb","TextureProcessor","Texture2DContent",163,1109,0.1703046

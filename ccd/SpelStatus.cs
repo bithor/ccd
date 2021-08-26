@@ -1,8 +1,6 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
-using TiledCS;
-using TiledCS.MonoGame.Rendering;
 
 namespace ccd {
 
@@ -13,8 +11,8 @@ namespace ccd {
         private readonly SpelResurser SpelResurser;
         public static Spelare spelare;
         private Fiende fiende;
-        private KollisionsHanterare kollisionsHanterare;
-        private TiledMapRenderer TiledRenderare;
+        private HUD hud;
+        private ObjektHanterare objektHanterare;
 
 
 
@@ -28,32 +26,39 @@ namespace ccd {
 
         }
 
+        public override void LoadContent(){
+        }
+
         public override void Initialisera() {
-            TiledRenderare = new TiledMapRenderer(SpelResurser.Karta);
-            TiledRenderare.Load(Innehall);
-            spelare = new Spelare(SpriteBatch, SpelResurser);
+            //spelare = new Spelare(SpriteBatch, SpelResurser);
             fiende = new Fiende(SpriteBatch, SpelResurser);
-            kollisionsHanterare = new KollisionsHanterare();
-            kollisionsHanterare.Colliders.Add(fiende.HitBox);
-            spelare.Ladda();
+            spelare = new Spelare();
+
+            hud = new HUD(SpriteBatch);
+
+            objektHanterare = new ObjektHanterare(SpriteBatch);
+            objektHanterare.Objekt.Add(fiende);
+            //objektHanterare.Objekt.Add(spelare);
         }
 
         public override void Rita(GameTime gameTime) {
-            SpriteBatch.Begin(transformMatrix: Kamera.Transform);
-            TiledRenderare.Draw(SpriteBatch);
-            spelare.Rita();
-            fiende.Rita();
+
+            SpriteBatch.Begin();
+            SpriteSystem.Rita(SpriteBatch);
+            //SpriteBatch.Begin(transformMatrix: Kamera.Transform);
+            //objektHanterare.Rita();
+            //hud.Rita();
             SpriteBatch.End();
         }
 
         public override void Uppdatera(GameTime gameTime) {
-            spelare.Uppdatera(gameTime);
-            Kamera.Follow(spelare.Position);
-            kollisionsHanterare.SpelarHitBox = spelare.HitBox;
-            kollisionsHanterare.KollisionsKoll();
-            spelare.Kolliderar = kollisionsHanterare.Kolliderar;
-            fiende.Uppdatera(gameTime);
-            
+            SpriteSystem.Uppdatera(gameTime);
+            KolliderarSystem.Uppdatera(gameTime);
+            RorelseSystem.Uppdatera(gameTime);
+            InputSystem.Uppdatera(gameTime);
+            //hud.Uppdatera(gameTime, spelare.Inventory, spelare.Position);
+            //Kamera.Follow(spelare.sprite.Position);
+            //objektHanterare.Uppdatera(gameTime);
         }
     }
 }      

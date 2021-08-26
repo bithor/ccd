@@ -10,14 +10,25 @@ namespace ccd {
 
         public List<Rectangle> Colliders = new List<Rectangle>();
         public Rectangle SpelarHitBox;
-        public bool Kolliderar;
+        public Tillstand SpelarTillstand;
         public KollisionsHanterare(){
-
+            
         }
-        public void KollisionsKoll() {
+        public void KollisionsKoll(List<Objekt> Objekt) {
 
-            foreach(Rectangle HitBox in Colliders) {
-                Kolliderar = SpelarHitBox.Intersects(HitBox);
+            for (int i = 0; i < Objekt.Count; i++)
+            {
+                for (int j = i + 1; j < Objekt.Count; j++)
+                {
+                    Objekt[i].Kolliderar = SpelarHitBox.Intersects(Objekt[j].HitBox);
+                    System.Console.WriteLine("objekt" + i + " objekt" + j);
+
+                    if(Objekt[i].Kolliderar && Objekt[i].Tillstand == Tillstand.Attack){
+                        Objekt[j].HP = 0;
+                    System.Console.WriteLine(Objekt[j].HP);
+                    }
+                }
+
             }
         }
     }

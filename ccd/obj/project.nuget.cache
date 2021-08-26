@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fXH4LoNro65uD5uh++NFO3zjM3AcO9iNm9XFdh4Jqv/vw3kUZ1H8i2JboW+WXfv0z+TknQd0W7wmKEs8/fUypg==",
+  "dgSpecHash": "25Xva4P0I6+s1AaeRGFnTATMIcfm3j2jx5q1AMNBZJBjdsY3YgSFutl6991N/hLvSl4H6Bd8/Xe/QDlABLTs2Q==",
   "success": true,
   "projectFilePath": "/home/bithor/c#/ccd/ccd/ccd.csproj",
   "expectedPackageFiles": [
     "/home/bithor/.nuget/packages/monogame.content.builder.task/3.8.0.1641/monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
     "/home/bithor/.nuget/packages/monogame.framework.desktopgl/3.8.0.1641/monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
-    "/home/bithor/.nuget/packages/tiledcs/2.1.1/tiledcs.2.1.1.nupkg.sha512",
     "/home/bithor/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "/home/bithor/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.17/microsoft.netcore.app.host.linux-x64.3.1.17.nupkg.sha512"
   ],

@@ -1,8 +1,5 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
-using TiledCS;
-using TiledCS.MonoGame.Rendering;
-
 
 namespace ccd {
     //classen som inhåller alla spel resurser för tillfället
@@ -17,9 +14,10 @@ namespace ccd {
         public Texture2D DougAttackTextur { get; set; }
         public Texture2D RandyNormalTextur { get; set; }
         public Texture2D RandyAttackTextur { get; set; } 
-        public TiledMap Karta { get; set; }
+        public static Texture2D Yxa { get; set; }
+        public static Texture2D InventorySlot { get; set; }
+        
         public SpelResurser(ContentManager Content) {
-            Karta = Content.Load<TiledMap>("SpelKarta");
             /////////////// Texturer För kulissen 
             GolvTextur = Content.Load<Texture2D>("mark");
             BakgrundTextur = Content.Load<Texture2D>("bakgrund");//byt till korrekt sen
@@ -28,9 +26,12 @@ namespace ccd {
             DougNormalTextur = Content.Load<Texture2D>("doug");
             DougPromenad = Content.Load<Texture2D>("doug_promenad");
             DougIdle = Content.Load<Texture2D>("doug_idle");
-            DougAttackTextur = Content.Load<Texture2D>("doug_attack");
+            DougAttackTextur = Content.Load<Texture2D>("dougattack");
             RandyNormalTextur = Content.Load<Texture2D>("randy");
             RandyAttackTextur = Content.Load<Texture2D>("randy_attack");
+            ////
+            Yxa = Content.Load<Texture2D>("Yxa");
+            InventorySlot = Content.Load<Texture2D>("InventorySlot");
         }
     }
 }

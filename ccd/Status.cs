@@ -13,7 +13,8 @@ namespace ccd {
             Innehall = innehall;
             SpriteBatch = spel._spriteBatch;
         }                  
-        public abstract void Initialisera();         
+        public abstract void Initialisera(); 
+        public abstract void LoadContent();      
         public abstract void Uppdatera(GameTime gameTime);                  
         public abstract void EfterUppdatering(GameTime gameTime);          
         public abstract void Rita(GameTime gameTime);            

@@ -10,21 +10,43 @@
 
 #-------------------------------- References --------------------------------#
 
-/reference:../bin/Debug/netcoreapp3.1/TiledCS.dll
-/reference:../../TiledCS.Extensions.MonoGame/Pipeline/bin/Debug/netstandard2.0/TiledCS.MonoGame.Content.Pipeline.dll
-
-
 #---------------------------------- Content ---------------------------------#
 
-#begin SpelKarta.tmx
-/importer:TiledMapImporter
-/processor:PassThroughProcessor
-/build:SpelKarta.tmx
+#begin dougattack.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:dougattack.png
 
-#begin Tile.tsx
-/importer:TiledTilesetImporter
-/processor:PassThroughProcessor
-/build:Tile.tsx
+#begin InventorySlot.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:InventorySlot.png
+
+#begin Yxa.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Yxa.png
 
 #begin bakgrund.png
 /importer:TextureImporter
