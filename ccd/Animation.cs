@@ -28,7 +28,7 @@ namespace ccd {
         }
 
         public void Uppdatera(GameTime gameTime){
-            var delta = (float)gameTime.ElapsedGameTime.TotalSeconds;
+            float delta = (float)gameTime.ElapsedGameTime.TotalSeconds;
             Timer += AnimationsHastighet * delta;
             if(Timer > 1f){
                 FrameIndex += 1;

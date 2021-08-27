@@ -5,15 +5,15 @@ namespace ccd {
     //classen som inhåller alla spel resurser för tillfället
     public class SpelResurser {
         // Döp ALLTID Variablerna med likvärdig Mönster T.ex om MinVariabel är av Texture2D så Ska Det Vara MinVariabelTextur
-        public Texture2D GolvTextur { get; set; }
-        public Texture2D BakgrundTextur { get; set; }
-        public Texture2D HimmelTextur { get; set; }
-        public Texture2D DougNormalTextur { get; set; }
-        public Texture2D DougPromenad { get; set; }
-        public Texture2D DougIdle { get; set; }
-        public Texture2D DougAttackTextur { get; set; }
-        public Texture2D RandyNormalTextur { get; set; }
-        public Texture2D RandyAttackTextur { get; set; } 
+        public static Texture2D GolvTextur { get; set; }
+        public static Texture2D BakgrundTextur { get; set; }
+        public static Texture2D HimmelTextur { get; set; }
+        public static Texture2D DougNormalTextur { get; set; }
+        public static Texture2D DougPromenad { get; set; }
+        public static Texture2D DougIdle { get; set; }
+        public static Texture2D DougAttackTextur { get; set; }
+        public static Texture2D RandyNormalTextur { get; set; }
+        public static Texture2D RandyAttackTextur { get; set; } 
         public static Texture2D Yxa { get; set; }
         public static Texture2D InventorySlot { get; set; }
         

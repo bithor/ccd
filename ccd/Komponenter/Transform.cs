@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 
 namespace ccd {
-    class Transform : Komponent {
+    public class Transform : Komponent {
         public Vector2 Position = Vector2.Zero;
         public Vector2 scale = Vector2.Zero;
         public float layerDepth = 0;

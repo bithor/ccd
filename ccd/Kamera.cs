@@ -7,9 +7,9 @@ namespace ccd {
 		public static Matrix Transform { get; private set; }
 
 		public static void Follow(Vector2 target) {
-			var position = Matrix.CreateTranslation(-target.X, -target.Y, 0); // follows target
+			Matrix position = Matrix.CreateTranslation(-target.X, -target.Y, 0); // follows target
 
-			var offset = Matrix.CreateTranslation(Game1.Bredd / 2, Game1.Hojd / 2, 0); // half screen width/height hardcoded
+			Matrix offset = Matrix.CreateTranslation(Game1.Bredd / 2, Game1.Hojd / 2, 0); // half screen width/height hardcoded
 
 			Transform = position * offset;
 		}

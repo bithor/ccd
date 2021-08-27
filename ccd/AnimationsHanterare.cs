@@ -9,11 +9,11 @@ namespace ccd {
         private Tillstand Tillstand;
         private Facing Facing;
 
-        public AnimationsHanterare(SpelResurser spelResurser){
+        public AnimationsHanterare(){
             Animationer = new Animation[3];
-            Animationer[0] = new Animation(spelResurser.DougIdle, 2, 1f);
-            Animationer[1] = new Animation(spelResurser.DougPromenad, 6, 10f);
-            Animationer[2] = new Animation(spelResurser.DougAttackTextur, 1, 10f);
+            Animationer[0] = new Animation(SpelResurser.DougIdle, 2, 1f);
+            Animationer[1] = new Animation(SpelResurser.DougPromenad, 6, 10f);
+            Animationer[2] = new Animation(SpelResurser.DougAttackTextur, 1, 10f);
         }
         public void Rita(SpriteBatch spriteBatch, Vector2 position) {
             Animationer[ValdAnimation].Rita(spriteBatch, position, Facing);

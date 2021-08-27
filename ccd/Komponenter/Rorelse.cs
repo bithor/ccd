@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace ccd {
-    class Rorelse : Komponent {
+    public class Rorelse : Komponent {
         
         public bool Hoger;
         public bool Vanster;

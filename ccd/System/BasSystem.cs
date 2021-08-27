@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace ccd {
 
-    class BasSystem<T> where T : Komponent {
+    public class BasSystem<T> where T : Komponent {
 
         public static List<T> komponenter = new List<T>();
 
@@ -24,8 +24,8 @@ namespace ccd {
 
     }
 
-    class TransformSystem : BasSystem<Transform> { }
-    class SpriteSystem : BasSystem<Sprite> {
+    public class TransformSystem : BasSystem<Transform> { }
+    public class SpriteSystem : BasSystem<Sprite> {
         
         public static void Rita(SpriteBatch spriteBatch) {
             foreach (Sprite komponent in komponenter) {
@@ -33,7 +33,7 @@ namespace ccd {
             }
         }
     }
-    class KolliderarSystem : BasSystem<Kolliderare> { }
-    class RorelseSystem : BasSystem<Rorelse> { }
-    class InputSystem : BasSystem<Input> { }
+    public class KolliderarSystem : BasSystem<Kolliderare> { }
+    public class RorelseSystem : BasSystem<Rorelse> { }
+    public class InputSystem : BasSystem<Input> { }
 }

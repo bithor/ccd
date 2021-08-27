@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
 namespace ccd {
-    class Input : Komponent {
+    public class Input : Komponent {
 
         public Input(){
             InputSystem.Register(this);

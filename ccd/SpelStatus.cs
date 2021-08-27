@@ -30,15 +30,9 @@ namespace ccd {
         }
 
         public override void Initialisera() {
-            //spelare = new Spelare(SpriteBatch, SpelResurser);
-            fiende = new Fiende(SpriteBatch, SpelResurser);
+
             spelare = new Spelare();
 
-            hud = new HUD(SpriteBatch);
-
-            objektHanterare = new ObjektHanterare(SpriteBatch);
-            objektHanterare.Objekt.Add(fiende);
-            //objektHanterare.Objekt.Add(spelare);
         }
 
         public override void Rita(GameTime gameTime) {

@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 
 namespace ccd {
-    class Kolliderare : Komponent {
+    public class Kolliderare : Komponent {
         // implementation of a Collider component
 
         public Rectangle YttreLada;

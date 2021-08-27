@@ -2,19 +2,9 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace ccd {
+namespace ccd
+{
 
-    public enum Tillstand {
-        Idle = 0,
-        Promenad = 1,
-        Attack = 2,
-        Doed = 3
-    }
-
-    public enum Facing {
-        Hoger,
-        Vanster
-    }
 /*    public class Spelare1 : Objekt {
         private Vector2 TempPosition;
         private Facing Facing;
