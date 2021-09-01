@@ -8,6 +8,7 @@ namespace ccd {
         public static Texture2D GolvTextur { get; set; }
         public static Texture2D BakgrundTextur { get; set; }
         public static Texture2D HimmelTextur { get; set; }
+        public static Texture2D Doug_SpriteSheet { get; set; }
         public static Texture2D DougNormalTextur { get; set; }
         public static Texture2D DougPromenad { get; set; }
         public static Texture2D DougIdle { get; set; }
@@ -23,6 +24,7 @@ namespace ccd {
             BakgrundTextur = Content.Load<Texture2D>("bakgrund");//byt till korrekt sen
             HimmelTextur = Content.Load<Texture2D>("himmel"); //byt till korrekt sen
             ///////////////
+            Doug_SpriteSheet = Content.Load<Texture2D>("Doug_SpriteSheet");
             DougNormalTextur = Content.Load<Texture2D>("doug");
             DougPromenad = Content.Load<Texture2D>("doug_promenad");
             DougIdle = Content.Load<Texture2D>("doug_idle");

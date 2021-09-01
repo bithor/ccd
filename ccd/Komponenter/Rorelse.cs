@@ -17,7 +17,6 @@ namespace ccd {
         private float vMovement = 0f;
         private float vVelocity = 0f;
         private float MaxMoveSpeed = 400.0f;
-        private Vector2 TempPosition;
 
         public Rorelse() {
             RorelseSystem.Register(this);
@@ -27,10 +26,10 @@ namespace ccd {
 
             float delta = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-            Sprite sprite = entitet.GetKomponent<Sprite>();
+            Transform transform = entitet.GetKomponent<Transform>();
             Kolliderare kolliderare = entitet.GetKomponent<Kolliderare>();
-            
-            TempPosition = sprite.Position;
+            bool kuk = false;
+            transform.TempPosition = transform.Position;
             
             hMovement = 0.0f;
             vMovement = 0.0f;
@@ -38,51 +37,78 @@ namespace ccd {
             if (Hoger) {
                 hVelocity += 1.0f * acceleration * delta;
                 hVelocity = MathHelper.Clamp(hVelocity, -MaxMoveSpeed, MaxMoveSpeed);
-                TempPosition.X += hVelocity * delta;
+                transform.TempPosition.X += hVelocity * delta;
 
-                if(!kolliderare.Kolliderar){
+                if(!kuk){
                     hVelocity += 1.0f * acceleration * delta;
                     hVelocity = MathHelper.Clamp(hVelocity, -MaxMoveSpeed, MaxMoveSpeed);
-                    sprite.Position.X += hVelocity * delta;
+                    transform.Position.X += hVelocity * delta;
+                    entitet.Tillstand = Tillstand.Promenad;
+                    entitet.Facing = Facing.Hoger;
                 }
                 hMovement = 1.0f;
             }
             if (Vanster) {
                 hVelocity += 1.0f * acceleration * delta;
                 hVelocity = MathHelper.Clamp(hVelocity, -MaxMoveSpeed, MaxMoveSpeed);
-                TempPosition.X -= hVelocity * delta;
+                transform.TempPosition.X -= hVelocity * delta;
 
-                if(!kolliderare.Kolliderar){
+                if(!kuk){
                     hVelocity += 1.0f * acceleration * delta;
                     hVelocity = MathHelper.Clamp(hVelocity, -MaxMoveSpeed, MaxMoveSpeed);
-                    sprite.Position.X -= hVelocity * delta;
+                    transform.Position.X -= hVelocity * delta;
+                    entitet.Tillstand = Tillstand.Promenad;
+                    entitet.Facing = Facing.Vanster;
                 }
                 hMovement = -1.0f;
             }
             if (Upp) {
                 vVelocity += 1.0f * acceleration * delta;
                 vVelocity = MathHelper.Clamp(vVelocity, -MaxMoveSpeed, MaxMoveSpeed);
-                TempPosition.Y -= vVelocity * delta;
+                transform.TempPosition.Y -= vVelocity * delta;
 
-                if(!kolliderare.Kolliderar){
+                if(!kuk){
                     vVelocity += 1.0f * acceleration * delta;
                     vVelocity = MathHelper.Clamp(vVelocity, -MaxMoveSpeed, MaxMoveSpeed);
-                    sprite.Position.Y -= vVelocity * delta;
+                    transform.Position.Y -= vVelocity * delta;
+                    entitet.Tillstand = Tillstand.Promenad;
                 }
                 vMovement = -1.0f;
             }
             if (Ner) {
                 vVelocity += 1.0f * acceleration * delta;
                 vVelocity = MathHelper.Clamp(vVelocity, -MaxMoveSpeed, MaxMoveSpeed);
-                TempPosition.Y += vVelocity * delta;
+                transform.TempPosition.Y += vVelocity * delta;
 
-                if(!kolliderare.Kolliderar){
+                if(!kuk){
                     vVelocity += 1.0f * acceleration * delta;
                     vVelocity = MathHelper.Clamp(vVelocity, -MaxMoveSpeed, MaxMoveSpeed);
-                    sprite.Position.Y += vVelocity * delta;
-
+                    transform.Position.Y += vVelocity * delta;
+                    entitet.Tillstand = Tillstand.Promenad;
                 }
                 vMovement = 1.0f;
+            }
+
+            if(entitet.Tillstand == Tillstand.Promenad) {
+                if(!Hoger && !Vanster && !Upp && !Ner) {
+                    entitet.Tillstand = Tillstand.Idle;
+                }
+                if(!Hoger && !Vanster){
+                    hVelocity = 0.0f;
+                }
+                if(!Upp && !Ner){
+                    vVelocity = 0.0f;
+                }
+            }else if (entitet.Tillstand == Tillstand.Idle) {
+                hVelocity *= 0.5f;
+                vVelocity *= 0.5f;
+
+                if(hVelocity < 0.5f){
+                    hVelocity = 0.0f;
+                }
+                if(vVelocity < 0.5f){
+                    vVelocity = 0.0f;
+                }
             }  
         }
     }

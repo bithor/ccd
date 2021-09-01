@@ -4,6 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>/home/bithor/c#/ccd/ccd/Content/Doug_SpriteSheet.png</File>
     <File>/home/bithor/c#/ccd/ccd/Content/dougattack.png</File>
     <File>/home/bithor/c#/ccd/ccd/Content/InventorySlot.png</File>
     <File>/home/bithor/c#/ccd/ccd/Content/Yxa.png</File>
@@ -22,6 +23,7 @@
     <File>/home/bithor/c#/ccd/ccd/Content/telefon.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -73,3 +73,4 @@
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/Yxa.xnb
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/InventorySlot.xnb
 /home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/dougattack.xnb
+/home/bithor/c#/ccd/ccd/bin/Debug/netcoreapp3.1/Content/Doug_SpriteSheet.xnb

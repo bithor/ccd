@@ -2,9 +2,9 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace ccd {
-    public class Animation {
+    public class Animati0n {
 
-        public Texture2D Textur;
+/*        public Texture2D Textur;
         public Vector2 Position = new Vector2(0, 0);
         public Rectangle[] Rectangles;
         public Facing Facing;
@@ -50,5 +50,6 @@ namespace ccd {
                 1f, SpriteEffects.FlipHorizontally, 0f);  
             }
         }
-    }
+    }*/
+}
 }

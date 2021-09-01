@@ -3,6 +3,7 @@ Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Siz
 "/home/bithor/c#/ccd/ccd/Content/doug_attack.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/doug_attack.xnb","TextureProcessor","Texture2DContent",1869,14469,0.0013217
 "/home/bithor/c#/ccd/ccd/Content/doug_idle.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/doug_idle.xnb","TextureProcessor","Texture2DContent",668,8277,0.0008203
 "/home/bithor/c#/ccd/ccd/Content/doug_promenad.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/doug_promenad.xnb","TextureProcessor","Texture2DContent",987,24661,0.0012246
+"/home/bithor/c#/ccd/ccd/Content/Doug_SpriteSheet.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/Doug_SpriteSheet.xnb","TextureProcessor","Texture2DContent",1827,73813,0.1645596
 "/home/bithor/c#/ccd/ccd/Content/doug.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/doug.xnb","TextureProcessor","Texture2DContent",1874,10165,0.0012762
 "/home/bithor/c#/ccd/ccd/Content/dougattack.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/dougattack.xnb","TextureProcessor","Texture2DContent",455,4181,0.222683
 "/home/bithor/c#/ccd/ccd/Content/fiende_attack.png","/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/fiende_attack.xnb","TextureProcessor","Texture2DContent",1845,14701,0.0012885

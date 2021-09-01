@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Graphics;
 namespace ccd {
     public class AnimationsHanterare {
 
-        public Animation[] Animationer;
+/*        public Animation[] Animationer;
         private int ValdAnimation;
         private Tillstand Tillstand;
         private Facing Facing;
@@ -25,5 +25,6 @@ namespace ccd {
             Animationer[ValdAnimation].Uppdatera(gameTime);
         }
 
-    }
+    }*/
+}
 }

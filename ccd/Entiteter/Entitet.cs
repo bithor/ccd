@@ -6,6 +6,10 @@ namespace ccd {
 
     public class Entitet {
         public int id { get; set; }
+        public Tillstand Tillstand { get; set; }
+        public Facing Facing { get; set; }
+
+
         List<Komponent> komponenter = new List<Komponent>();
 
         public void AddKomponent(Komponent komponent){
