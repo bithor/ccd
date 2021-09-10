@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>/home/bithor/c#/ccd/ccd/Content/mark.png</SourceFile>
-  <SourceTime>2020-07-12T12:33:09.6587755+02:00</SourceTime>
+  <SourceTime>2020-07-12T12:33:09.658775+02:00</SourceTime>
   <DestFile>/home/bithor/c#/ccd/ccd/Content/bin/DesktopGL/Content/mark.xnb</DestFile>
-  <DestTime>2021-08-12T22:20:29.0088684+02:00</DestTime>
+  <DestTime>2021-09-03T17:26:42.6534144+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

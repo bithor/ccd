@@ -1,31 +1,40 @@
 using System;
 using System.Collections.Generic;
-using Microsoft.Xna.Framework;
 
 namespace ccd {
-
     public class Entitet {
-        public int id { get; set; }
-        public Tillstand Tillstand { get; set; }
-        public Facing Facing { get; set; }
-
-
-        List<Komponent> komponenter = new List<Komponent>();
-
-        public void AddKomponent(Komponent komponent){
-            komponenter.Add(komponent);
-            komponent.entitet = this;
+        public int ID { get; private set; }
+        private Dictionary<Type, Komponent> Komponenter;
+    
+        public Entitet(int id)
+        {
+            ID = id;
+            Komponenter = new Dictionary<Type, Komponent>();
         }
-
-        public T GetKomponent<T>() where T : Komponent {
-            foreach (Komponent komponent in komponenter)
-            {
-                if (komponent.GetType().Equals(typeof(T)))
-                {
-                    return (T)komponent;
-                }
-            }
-            return null;
+    
+        internal void LaggTillKomponent(Komponent Komponent)
+        {
+            Komponenter[Komponent.GetType()] = Komponent;
+        }
+    
+        internal void TaBortKomponent<T>() where T : Komponent
+        {
+            Komponenter.Remove(typeof(T));
+        }
+    
+        public T TaKomponent<T>() where T : Komponent
+        {
+            return (T)Komponenter[typeof(T)];
+        }
+    
+        public bool HarKomponent(Type KomponentType)
+        {
+            return Komponenter.ContainsKey(KomponentType);
+        }
+    
+        public bool HarKomponent<T>() where T : Komponent
+        {
+            return Komponenter.ContainsKey(typeof(T));
         }
     }
 }
